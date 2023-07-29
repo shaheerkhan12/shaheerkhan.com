@@ -18,7 +18,7 @@ const Hero = () => (
       <a href="//www.uppedevents.com/">Upped Event Inc</a>.
     </p>
     <p>
-      I previously created <a href="//octanedemo.com">Octane</a>, a platform
+      I previously created <a href="//octanedemo.netlify.app">Octane</a>, a platform
       that can Block,Unblock and whitelist domains,urls,vpns. I was also a
       resident engineer at PTA to provide support for Sandvine / DPI and the WMS
       Solution. I graduated from International Islamic University,Islamabad with
