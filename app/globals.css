@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,36 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+@layer base {
+  body {
+    @apply overscroll-y-none text-gray-800 dark:bg-gray-800 dark:text-gray-50;
+  }
+}
+
+@layer components {
+  a {
+    @apply underline;
+  }
+
+  h2 {
+    /*@apply font-bold text-2xl mt-10;*/
+    @apply relative mt-10 text-xl font-bold uppercase;
+  }
+
+  h2:after {
+    /* position the element */
+    content: '';
+
+    @apply absolute left-0 right-0 top-1/2 -z-20 block h-[0.12rem] min-h-[1px] bg-gray-800 dark:bg-gray-50;
+  }
+
+  h2:before {
+    @apply absolute top-0 left-0 bottom-0 -z-10 block bg-white pr-3 text-white dark:bg-gray-800 dark:text-gray-800;
+    content: attr(data-content);
+  }
+
+  details[open] > summary:before {
+    transform: rotate(90deg);
+  }
 }
