@@ -7,14 +7,30 @@ import Layout from "./layout";
 
 export default function Home() {
   return (
-    <Layout>
-      <HeaderLine />
-      <main className="mx-auto mt-10 flex max-w-2xl flex-col gap-5 px-10 pb-10">
-        <Hero />
-        <Projects />
-        <Work />
-        <Contact />
-      </main>
-    </Layout>
+    <>
+      <div className="area">
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <Layout>
+        <HeaderLine />
+        <main className="mx-auto mt-10 flex max-w-2xl flex-col gap-5 px-10 pb-10">
+          <Hero />
+          <Projects />
+          <Work />
+          <Contact />
+        </main>
+      </Layout>
+    </>
   );
 }
