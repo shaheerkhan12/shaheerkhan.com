@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <Layout>
         <HeaderLine />
-        <main className="mx-auto mt-10 flex max-w-2xl flex-col gap-5 px-10 pb-10">
+        <main className="mx-auto mt-10 flex max-w-2xl flex-col gap-5 px-10 pb-10 relative">
           <Hero />
           <Projects />
           <Work />
