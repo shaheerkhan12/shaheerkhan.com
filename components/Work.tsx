@@ -15,7 +15,12 @@ const Work = () => {
         title: 'Full-stack Developer',
         time: 'feb 2022 - december 2022',
         lines: [
-        
+          'worked on famous frameworks such as Angular or ReactJS for front-end development.',
+          'Experienced  with cloud deployment platforms such as AWS',
+          'Experience with database technologies, both SQL (like PostgreSQL or MySQL) and NoSQL (like MongoDB ).',
+          'Familiarity with Docker for containerization and orchestration.and Kubernetes still learning',
+          'Strong understanding of API development and Microservices Architecture.',
+          'Got experience with DevOps and CI/CD tools like Jenkins, GitLab.'
         ],
       },
       {
